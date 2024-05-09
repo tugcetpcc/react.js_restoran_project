@@ -1,0 +1,33 @@
+.food {
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left,
+  .right {
+    flex: 1;
+    height: 300px; /* İsteğe bağlı olarak yüksekliği ayarlayın */
+  }
+  
+  .left {
+    margin-right: 20px;
+  }
+  
+  .right {
+    margin-left: 20px;
+  }
+  
+  .left,
+  .right {
+    border-radius: 8px;
+  }
+  
+  .left:hover,
+  .right:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
